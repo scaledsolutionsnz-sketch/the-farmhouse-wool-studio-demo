@@ -244,7 +244,8 @@ section{padding:78px 0}
 /* ---------- About ------------------------------------------------------- */
 .about-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:52px;align-items:center}
 .about-media{position:relative}
-.about-media img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-lg);box-shadow:var(--shadow-lift)}
+/* no fixed ratio and no cover, so the whole photo shows rather than a crop of it */
+.about-media img{width:100%;height:auto;border-radius:var(--r-lg);box-shadow:var(--shadow-lift)}
 .corner-tag{
   position:absolute;right:-10px;bottom:-16px;background:var(--accent);color:var(--on-accent);
   padding:15px 20px;border-radius:var(--r);max-width:210px;box-shadow:var(--shadow-lift);
