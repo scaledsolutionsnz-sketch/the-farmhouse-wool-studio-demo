@@ -209,9 +209,8 @@ section{padding:78px 0}
 
 .hero-quote{
   max-width:390px;padding:14px 16px;border-radius:var(--r);
-  background:rgba(24,17,11,.82);
-  border:1px solid rgba(251,247,241,.26);
-  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  background:#1A130C;
+  border:1px solid rgba(251,247,241,.28);
 }
 .hero-quote .stars{display:flex;gap:3px;margin-bottom:8px}
 .hero-quote .stars svg{width:14px;height:14px;color:#E8B44B}
